@@ -1,0 +1,86 @@
+body {
+	font-family: "Helvetica";
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+/* top section
+----------------------------*/
+
+.top-section {
+	margin:auto;
+	width: 605px;
+	background-color: black;
+	padding-bottom: 10px;
+	color:white;
+}
+
+.input {
+    background-color: black;
+    font-size: 2em;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+    color: white;
+}
+
+#new-gif-button {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 4em;
+	color:white;
+	width: 50px;
+	height: 50px;
+	background-color:none;
+	margin: -10px auto 10px auto;
+}
+
+#new-gif-button.red {
+	color: red;
+}
+
+/* top section
+----------------------------*/
+
+#gif-tv {
+	margin:auto;
+	width: 605px;
+	height: 605px;
+	background-color: black;
+}
+
+.gif-container {
+	width: 200px;
+	height: 200px;
+	overflow:hidden;
+	text-align:center;
+	display: inline-block;
+}
+
+.wider {
+	height: 200px;
+	width:auto;
+}
+
+.higher {
+	width: 200px;
+	height: auto;
+}
+
+.cross {
+	font-size: 10em;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.cross.hidden {
+	display:none;
+}
